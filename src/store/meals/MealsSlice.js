@@ -13,6 +13,33 @@ const initialState = {
   error: "",
 };
 
+
+// export const mealsSlice = createSlice({
+//   name: "meals",
+//   initialState: initialState,
+//   reducers: {
+//     getMealsStarted(state) {
+//     state.isLoading = true
+//     },
+//     getMealsSuccess(state, action) {
+//      state.meals = action.payload;
+//      state.isLoading = false;
+//      state.error = '';
+//     },
+//     getMealsFailed(state, action) {
+//        state.isLoading = false;
+//        state.error = action.payload;
+//     },
+//   },
+// });
+
+
+
+
+
+
+
+
 export const mealsSlice = createSlice({
   name: "meals",
   initialState,
